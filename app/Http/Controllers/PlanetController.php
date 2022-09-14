@@ -54,7 +54,7 @@ class PlanetController extends Controller
     public function show($id)
     {
         $planet = Planet::find($id);
-        return view('planets.show', compact($planet));
+        return view('planets.show', ['planet' => $planet]);
     }
 
     /**
