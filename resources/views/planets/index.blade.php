@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <title>index</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
+
 <body>
     <h1>惑星一覧</h1>
     <table border="1">
@@ -39,4 +41,5 @@
     </table>
     <a href="/planets/create">新規登録</a>
 </body>
+
 </html>
